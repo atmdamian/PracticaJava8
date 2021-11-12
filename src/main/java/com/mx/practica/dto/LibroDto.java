@@ -1,5 +1,7 @@
 package com.mx.practica.dto;
 
+import java.util.List;
+
 public class LibroDto {
 	
 	private String titulo;
@@ -17,9 +19,7 @@ public class LibroDto {
 		this.categoria = categoria;
 		this.pagina = pagina;
 	}
-
-
-
+	
 	public String getTitulo() {
 		return titulo;
 	}
